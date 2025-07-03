@@ -1,6 +1,4 @@
+aiogram>=3.0.0
 aiohttp==3.9.5
-aiogram==3.0.0
 python-dotenv
-wheel
-setuptools
 
