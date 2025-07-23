@@ -122,9 +122,9 @@ async def loli_message_handler(message: Message):
             "Пользователь сказал:\n"
             f"{user_input}\n"
             "Ответь как Лоли:"
-        )}],
+            )}],
         "role": "user"
-    })
+        })
 
     await bot.send_chat_action(chat_id=message.chat.id, action="typing")
 
